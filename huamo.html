@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>花馍</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            font-size: 16px; 
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            position: relative;
+            background: url('images/背景.png')no-repeat center center; 
+            height: 450px;
+            background-size: cover;
+            display: flex;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+       
+        nav {
+            background: lightcoral;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            gap: 20px; 
+        }
+        .card {
+            background-color: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            padding: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: calc(33.333% - 20px);
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0, 0.2);
+        }
+        .card img {
+            border-radius: 4px;
+            height: auto;
+            margin-bottom: 15px;
+            max-width: 100%;
+        }
+        .card-content {
+            flex-grow: 1;
+        }
+
+        footer {
+            background: red;
+            padding: 10px 0;
+            text-align: center;
+            color: #fff;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+        .a{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1></h1>
+        </div>
+    </header>
+
+<nav>
+    <div class="container">
+        <ul>
+            <li><a href="#culture">文化</a></li>
+            <li><a href="#history">历史</a></li>
+            <li><a href="#development">发展</a></li>
+            <li><a href="#cooking-introduction">做法介绍</a></li>
+            <li><a href="#gallery">图册</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <div class="container content">
+        <section id="culture" class="section">
+            <h2>文化</h2>
+            <p>花馍是中国北方地区的一种传统面食艺术，尤其在山西闻喜等地有着悠久的历史和深厚的文化底蕴。花馍不仅是食物，更是一种文化象征。它通过各种精美的造型和寓意，表达了人们对祖先的祭祀、长辈的祝福、新婚夫妇的恭贺以及对美好生活的向往。花馍的制作工艺复杂，传承无粉本无底样，需要手工艺人的高超技艺。</p>
+        </section>
+
+        <section id="history" class="section">
+            <h2>历史</h2>
+            <p>花馍的历史可以追溯到舜禹时代，当时后稷在此教民嫁穑，中国农耕文明的第一粒种子生根发芽，花馍也随之诞生。隋唐时期，花馍在社会生活中得到了更广泛的应用，成为婚丧嫁娶、立梁上柱、祝寿贺喜等场合的重要礼品。</p>
+        </section>
+
+        <section id="development" class="column">
+            <h2>发展</h2>
+            <p>花馍是一种源自中国的传统面食艺术，尤其在山西省闻喜县地区广为流传。它起源于农耕文明早期，随着时间的推移，花馍不仅保留了食用价值，还逐渐发展成为富有文化内涵的民间艺术品。
+                花馍通常用于各种传统仪式和节日庆典，如婚礼、春节、祭祀等，人们通过花馍来表达祝福、祈愿和纪念。花馍的造型多样，常见的有花卉、动物、人物等，这些图案在中国文化中都具有吉祥和美好的寓意。
+                花馍的制作工艺复杂，需要手工艺人运用剪、捏、压、搓等多种手法，以及丰富的想象力和创造力。花馍的色彩鲜艳，造型生动，不仅具有观赏性，也反映了制作者的心灵手巧和艺术想象力。
+                随着社会的发展，花馍的制作技艺得到了保护和传承，同时也在现代美学价值上得到了新的认识和应用。尽管面临传统技艺传承的挑战，但花馍依然作为一种文化符号，在中国民间艺术中占有重要地位。
+                近年来，花馍的制作技艺得到了更多的关注和推广。许多地方开始举办花馍制作比赛和展览，吸引了众多手工艺人和爱好者的参与。此外，花馍的制作技艺也被纳入了非物质文化遗产保护名录，得到了政府和社会各界的支持和保护。
+                花馍的制作不仅是一种传统技艺，更是一种文化传承。通过花馍的制作，人们可以更好地了解和体验中国传统文化的魅力。同时，花馍的制作也为当地的经济发展带来了新的机遇，许多地方开始将花馍制作作为一种特色产业来发展，带动了当地的就业和经济增长。</p>
+        </section>
+
+        <section id="cooking-introduction" class="column">
+            <h2>做法介绍</h2>
+            <p>花馍的制作是一门传统手艺，通常包括以下几个步骤：</p>
+
+            <p>1. **和面**：选择高质量的面粉，加入适量的水，揉成光滑的面团。和面时可以加入少量的糖或牛奶，以增加风味和改善口感。</p>  
+
+            <p>2. **发酵**：将揉好的面团放置在温暖的地方进行发酵，发酵时间根据温度和面团大小而定，通常需要1-2小时。</p>     
+                
+            <p>3. **分割**：将发酵好的面团分割成小块，每块用于制作一个花馍。</p>     
+                
+            <p>4. **造型**：这是制作花馍的关键步骤，手艺人会运用剪刀、梳子、刀片等工具，通过切、揉、捏、揪、挑、压、搓等手法，塑造出各种形状，如花、鸟、鱼、动物等。</p>     
+                
+            <p>5. **装饰**：使用红豆、绿豆、红枣、核桃或其他食材来装饰花馍，增加视觉效果和口感。</p>     
+                
+            <p>6. **醒发**：造型完成后，放置一段时间让花馍再次发酵，这样蒸出来的花馍会更加松软。</p>     
+                
+            <p>7. **蒸制**：将醒发好的花馍放入蒸笼，用大火蒸制。蒸制时间根据花馍的大小和厚度而定，一般需要20-30分钟。</p>     
+                
+            <p> 8. **冷却**：蒸好的花馍取出后，放置在通风处冷却，避免水汽影响口感。</p>    
+                
+            <p>9. **保存**：冷却后的花馍可以密封保存，防止干燥。如果需要长期保存，可以冷冻。</p>     
+                
+            <p>花馍的制作不仅需要技艺，还需要耐心和创造力。在不同的地区，花馍的制作风格和装饰图案可能会有所不同，但共同点是都体现了中国丰富的传统文化和民间艺术。随着时间的推移，花馍的制作技艺也在不断地传承和发展，成为连接过去和现在的文化桥梁。</p>    
+        </section>
+
+        <div class="container content">
+            <section id="gallery" class="section">
+                <h2>图册</h2>
+                <div class="a">
+                <div class="card">
+                    <img src='images/花馍1.jpg' alt="花馍1">
+                    <h3>花馍1</h3>
+                </div>
+                <div class="card">
+                    <img src='images/花馍2.jpg' alt="花馍2">
+                    <h3>花馍2</h3>
+                </div>
+                <div class="card">
+                    <img src='images/花馍3.jpg' alt="花馍3">
+                    <h3>花馍3</h3>
+                </div>
+                <div class="card">
+                    <img src='images/花馍4.jpg' alt="花馍4">
+                    <h3>花馍4</h3>
+                </div>
+                <div class="card">
+                    <img src='images/花馍5.jpg' alt="花馍5">
+                    <h3>花馍5</h3>
+                </div>
+                <div class="card">
+                    <img src='images/花馍6.jpg' alt="花馍6">
+                    <h3>花馍6</h3>
+                </div>
+                <div class="card">
+                    <img src='images/花馍7.jpg'alt="花馍7">
+                    <h3>花馍7</h3>
+                </div>
+                <div class="card">
+                    <img src='images/花馍8.jpg' alt="花馍8">
+                    <h3>花馍8</h3>
+                </div>
+                <div class="card">
+                    <img src='images/花馍9.jpg' alt="花馍9">
+                    <h3>花馍9</h3>
+                </div>
+            </section>
+        </div>
+
+        <section id="contact" class="column">
+            <h2>联系我们</h2>
+            <p>这里是联系信息，可以包括邮箱、社交媒体链接等。</p>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>版权所有 &copy; 2024 花馍</p>
+        </div>
+    </footer>
+</body>
+</html>
